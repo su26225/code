@@ -20,3 +20,9 @@ Health prediction model encompassing steps such as disk labeling, feature select
 
 torch-Reinforcementv2.py:
 Training model for reinforcement learning. Health level is calculated based on brand classification. Disk failures are simulated according to the health level, and the optimal strategy during failures is learned.
+
+mse.py
+Calculates the mean squared error between different experiments and computes the average. Evaluate the effectiveness of a method by comparing stability on different datasets.
+
+Re_img.py
+Calculates the standard deviation of the last 200 rounds of a specific data set. Generates plots to visualize the variation of the redundancy scheme and scrubbing rate.
